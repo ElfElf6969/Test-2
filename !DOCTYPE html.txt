@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Digital Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer & Creative Thinker</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my digital space! I'm passionate about technology and creativity. Learn more about my background, interests, and achievements.</p>
+        <!-- Add more details about yourself -->
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Explore some of my exciting projects and creations. This portfolio reflects my skills and growth over time.</p>
+        <!-- Add your projects with descriptions and images -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Interested in collaborating or want to learn more about me? Feel free to reach out!</p>
+        <!-- Add a contact form or contact information -->
+    </section>
+
+    <footer>
+        &copy; 2023 Your Name - Digital Portfolio
+    </footer>
+
+</body>
+</html>
